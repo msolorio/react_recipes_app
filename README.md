@@ -1,3 +1,3 @@
-## Project Wayfarer
+## Recipes App
 
-A travel blog with React, Express, and MongoDB.
+The front end of a recipes app with React.
