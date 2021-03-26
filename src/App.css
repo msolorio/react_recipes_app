@@ -47,8 +47,8 @@ button {
 }
 
 
-/* CITY SHOW PAGE */
-.city-show-page {
+/* category SHOW PAGE */
+.category-show-page {
   display: flex;
 }
 
@@ -68,40 +68,45 @@ button {
   background: #efefef;
 }
 
-/* CITY INFO *********************************************** */
-.city-info {
+/* category INFO *********************************************** */
+.category-info {
   border: 2px solid #aaa;
   flex-grow: 1;
 }
 
-.city-detail {
+.category-detail {
   border: 2px solid #aaa;
   display: flex;
   justify-content: space-between;
   padding: 20px;
 }
 
-/* POSTS SECTION ******************************************* */
-.posts-section {
+.category-img {
+  /* width: 50%; */
+  max-height: 350px;
+}
+
+/* RECIPES SECTION ******************************************* */
+.recipes-section {
   border: 2px solid #aaa;
   cursor: pointer;
 }
 
-.add-post-button {
+.add-recipe-button {
   margin: 15px;
   padding: 7px 10px;
 }
 
-.post {
+.recipe {
   border-top: 2px solid #aaa;
   padding: 18px;
 }
 
-.post:hover {
+.recipe:hover {
   background: #efefef;
 }
 
-/* POST ADD PAGE ******************************************** */
+/* RECIPE ADD PAGE ******************************************** */
 .form {
   margin: 0 auto;
   max-width: 1000px;
@@ -131,16 +136,16 @@ button {
 .form-input-body {
   height: 200px;
 }
-/* SHOW POST PAGE **************************************** */
-.show-post-page {
+/* SHOW RECIPE PAGE **************************************** */
+.show-recipe-page {
   margin: 0 auto;
   max-width: 1000px;
   padding: 20px;
 }
 
-.post-city-name,
-.post-title,
-.post-body {
+.recipe-category-name,
+.recipe-title,
+.recipe-body {
   margin-bottom: 10px;
 }
 

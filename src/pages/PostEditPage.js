@@ -1,7 +1,7 @@
-function PostEditPage() {
+function RecipeEditPage() {
   return (
-    <h1>Post Edit Page</h1>
+    <h1>Recipe Edit Page</h1>
   )
 }
 
-export default PostEditPage;
+export default RecipeEditPage;

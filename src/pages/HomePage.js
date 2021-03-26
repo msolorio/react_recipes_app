@@ -1,6 +1,7 @@
+// TODO: UPDATE COMPONENT DETAILS
 function HomePage() {
   return (
-    <h1>Welcome to Wayfarer</h1>
+    <h1>Welcome to Chef Master</h1>
   )
 }
 

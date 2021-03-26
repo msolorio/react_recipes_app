@@ -1,17 +1,17 @@
-const cities = [
+const categories = [
   {
-    cityName: 'San Francisco',
-    cityImage: '',
-    posts: [
+    categoryName: 'San Francisco',
+    categoryImage: '',
+    recipes: [
       {
-        city: 'San Francisco',
+        category: 'San Francisco',
         image: '',
         author: 'Samwise Gam-G',
         title: 'My trip to SF',
         body: 'I spent 2 weeks in SF. Let me tell you how it went.'
       },
       {
-        city: 'San Francisco',
+        category: 'San Francisco',
         image: '',
         author: 'Lord Byron',
         title: 'Born and raised in SF and now I\'m getting out!',
@@ -20,11 +20,11 @@ const cities = [
     ]
   },
   {
-    cityName: 'Gibraltar',
-    cityImage: '',
-    posts: [
+    categoryName: 'Gibraltar',
+    categoryImage: '',
+    recipes: [
       {
-        city: 'Gibraltar',
+        category: 'Gibraltar',
         image: '',
         author: 'Samwise Gam-G',
         title: 'My trip to Gibraltar',
@@ -33,11 +33,11 @@ const cities = [
     ]
   },
   {
-    cityName: 'London',
-    cityImage: '',
-    posts: [
+    categoryName: 'London',
+    categoryImage: '',
+    recipes: [
       {
-        city: 'London',
+        category: 'London',
         image: '',
         author: 'Samwise Gam-G',
         title: 'My trip to London',
@@ -48,5 +48,5 @@ const cities = [
 ];
 
 export {
-  cities
+  categories
 };
